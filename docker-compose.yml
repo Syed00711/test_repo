@@ -32,7 +32,7 @@ services:
 volumes:
      vol_nginx_1:
            name: vol_nginx_1
-           external: true
+           external: false
      new_compose_vol:
             name: new_compose_vol
             external: false
